@@ -1,0 +1,22 @@
+#!/bin/bash
+
+ name=$1
+ age=$2
+
+
+
+ echo $#
+
+ if [ $# != 2 ]
+ then
+       echo enter valid number of args
+       exit 0
+ fi
+
+ echo "syname is $name"
+
+ echo age is $age
+
+ echo "this is ndagha"
+
+ 
